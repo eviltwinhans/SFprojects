@@ -1,1 +1,1 @@
-# Projects implemented while studying Python with SkillFactory
+# Python projects with SkillFactory
