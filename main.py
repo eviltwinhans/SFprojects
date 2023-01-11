@@ -14,7 +14,7 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm. WTF!')
+    print_hi('PyCharm. Wow!')
 
 
 def rec_reverse(str_):
@@ -85,7 +85,7 @@ def new_print(text):
 
 
 new_print('Hello!')
-new_print('Hellooooooooo!')'''
+new_print('Hello!')'''
 
 
 def add_cache(func):
@@ -151,6 +151,7 @@ def equal(n, s):
     else:
         return equal(n // 10, s - n % 10)
 
+
 '''
 def e():
     n = 1
@@ -206,4 +207,3 @@ def from_db():
 
 
 # from_db()'''
-
