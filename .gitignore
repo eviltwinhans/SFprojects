@@ -1,3 +1,7 @@
 /venv/
 /.idea/
 .DS_Store
+/Battleship/venv/
+/Battleship/.idea/
+/TicTacToe/venv/
+/TicTacToe/.idea/
