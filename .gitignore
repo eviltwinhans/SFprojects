@@ -5,3 +5,4 @@
 /Battleship/.idea/
 /TicTacToe/venv/
 /TicTacToe/.idea/
+*/__pycache__
