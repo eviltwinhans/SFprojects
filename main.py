@@ -5,6 +5,9 @@
 # import requests
 # import bs4
 # import pytest
+from practice_c1.myclass import MyClass
+import sys
+print(sys.path)
 
 
 def print_hi(name):
@@ -15,6 +18,10 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm. Wow!')
+
+if __name__ == "__main__":
+    m = MyClass()
+    print("It's really working:", m.f())
 
 
 def rec_reverse(str_):
@@ -66,7 +73,6 @@ in_build_pow = decorator_time(in_build_pow)
 pow_2()
 in_build_pow()'''
 
-
 '''def count_usage(fn):
     fn_counter = 0
 
@@ -110,7 +116,7 @@ def f(n):
 
 
 def discriminant(a, b, c):
-    return b**2 - 4*a*c
+    return b ** 2 - 4 * a * c
 
 
 def quadratic_solve(a, b, c):
@@ -118,7 +124,7 @@ def quadratic_solve(a, b, c):
     if dnt < 0:
         return "Нет вещественных корней"
     elif dnt == 0:
-        return -b / (2*a)
+        return -b / (2 * a)
     else:
         return (-b - dnt ** 0.5) / (2 * a), (-b + dnt ** 0.5) / (2 * a)
 
@@ -140,7 +146,7 @@ def rec_reverse2(a):
 
 
 def mirror(a, res=0):
-    return mirror(a // 10, res*10 + a % 10) if a else res
+    return mirror(a // 10, res * 10 + a % 10) if a else res
 
 
 def equal(n, s):
